@@ -1,0 +1,15 @@
+{
+    "BASE_URL_UI": "http://localhost:3000/",
+    "BROWSER_WIDTH": 1920,
+    "BROWSER_HEIGHT": 1000,
+    "BROWSER_POSITION": {"x": -10, "y": 30},
+    "VIDEOS_DIR": "videos/",
+    "TRACES_DIR": "traces/",
+    "RECORD_VIDEO": true,
+    "SCREENSHOT_PREFIX": "screenshot",
+    "TRACE_PREFIX": "trace",
+    "ALLURE_RESULTS_DIR": "allure-results",
+
+    "BASE_URL_API": "http://localhost:3000/",
+    "GRAFANA_API_KEY": "YOUR_GRAFANA_SERVICE_ACCOUNT_TOKEN_HERE"
+}

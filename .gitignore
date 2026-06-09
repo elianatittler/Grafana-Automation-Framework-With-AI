@@ -1,0 +1,22 @@
+# משתני סביבה וקובצי קונפיגורציה רגישים
+config.json
+.env
+
+# סביבה וירטואלית של פייתון
+venv/
+.venv/
+env/
+
+# קבצים זמניים של פייתון והרצות
+__pycache__/
+*.py[cod]
+*$py.class
+
+# דוחות בדיקה (אם את לא רוצה להעלות דוחות מקומיים ל-GitHub)
+.pytest_cache/
+allure-results/
+allure-report/
+
+# הגדרות של תוכנת הפיתוח
+.idea/
+.vscode/
