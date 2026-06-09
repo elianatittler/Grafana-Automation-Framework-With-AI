@@ -27,7 +27,7 @@ An advanced, production-ready automation framework designed for comprehensive te
 ## 📦 Directory Structure
 
 ```text
-API_Automation/
+Grafana-Hybrid-Automation-API-and-Web-With-AI/
 ├── config.json               # Native environment keys (Excluded via .gitignore)
 ├── config.example.json       # Structural boilerplate blueprint for configuration
 ├── conftest.py               # Root automation runner configuration & AI interceptor hooks
