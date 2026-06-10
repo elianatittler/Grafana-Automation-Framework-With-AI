@@ -30,8 +30,8 @@ Get the framework up and running locally in less than 2 minutes:
 
 1. **Clone the repository:**
 ```bash
-   git clone [https://github.com/elianatittler/Grafana-Hybrid-Automation-API-and-Web-With-AI.git](https://github.com/elianatittler/Grafana-Hybrid-Automation-API-and-Web-With-AI.git)
-   cd Grafana-Hybrid-Automation-API-and-Web-With-AI
+git clone https://github.com/elianatittler/Grafana-Hybrid-Automation-API-and-Web-With-AI.git
+cd Grafana-Hybrid-Automation-API-and-Web-With-AI
 
 ---
 
