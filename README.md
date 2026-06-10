@@ -30,14 +30,17 @@ Get the framework up and running locally in less than 2 minutes:
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/elianatittler/Grafana-Hybrid-Automation-API-and-Web-With-AI.git
+git clone [https://github.com/elianatittler/Grafana-Hybrid-Automation-API-and-Web-With-AI.git](https://github.com/elianatittler/Grafana-Hybrid-Automation-API-and-Web-With-AI.git)
 cd Grafana-Hybrid-Automation-API-and-Web-With-AI
 
----
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
 
-## 📦 Directory Structure
+playwright install
 
-```text
+pytest -s -v
+
 Grafana-Hybrid-Automation-API-and-Web-With-AI/
 ├── config.json               # Native environment keys (Excluded via .gitignore)
 ├── config.example.json       # Structural boilerplate blueprint for configuration
