@@ -24,32 +24,36 @@ An advanced, production-ready automation framework designed for comprehensive te
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start & Directory Structure
 
 Get the framework up and running locally in less than 2 minutes:
 
-1. **Clone the repository:**
-```bash
-git clone [https://github.com/elianatittler/Grafana-Hybrid-Automation-API-and-Web-With-AI.git](https://github.com/elianatittler/Grafana-Hybrid-Automation-API-and-Web-With-AI.git)
-cd Grafana-Hybrid-Automation-API-and-Web-With-AI
+```text
+1. Clone the repository:
+   git clone [https://github.com/elianatittler/Grafana-Hybrid-Automation-API-and-Web-With-AI.git](https://github.com/elianatittler/Grafana-Hybrid-Automation-API-and-Web-With-AI.git)
+   cd Grafana-Hybrid-Automation-API-and-Web-With-AI
 
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
+2. Set up the virtual environment & install dependencies:
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
 
-playwright install
+3. Install Playwright Browsers:
+   playwright install
 
-pytest -s -v
+4. Run the test suite:
+   pytest -s -v
 
-Grafana-Hybrid-Automation-API-and-Web-With-AI/
-├── config.json               # Native environment keys (Excluded via .gitignore)
-├── config.example.json       # Structural boilerplate blueprint for configuration
-├── conftest.py               # Root automation runner configuration & AI interceptor hooks
-├── utils/
-│   ├── common_ops.py         # Global ecosystem dynamic loaders
-│   └── fixture_helpers.py    # Request Context factories
-├── data/
-│   └── login_data.csv        # Dynamic datasets for Data-Driven Testing (DDT)
-└── tests/
-    ├── api/                  # Direct Grafana Service Account backend tests
-    └── web/                  # Browser testing suites with integrated ai_handler.py
+5. Directory Structure:
+   Grafana-Hybrid-Automation-API-and-Web-With-AI/
+   ├── config.json               # Native environment keys (Excluded via .gitignore)
+   ├── config.example.json       # Structural boilerplate blueprint for configuration
+   ├── conftest.py               # Root automation runner configuration & AI interceptor hooks
+   ├── utils/
+   │   ├── common_ops.py         # Global ecosystem dynamic loaders
+   │   └── fixture_helpers.py    # Request Context factories
+   ├── data/
+   │   └── login_data.csv        # Dynamic datasets for Data-Driven Testing (DDT)
+   └── tests/
+       ├── api/                  # Direct Grafana Service Account backend tests
+       └── web/                  # Browser testing suites with integrated ai_handler.py
