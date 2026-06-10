@@ -33,6 +33,8 @@ Get the framework up and running locally in less than 2 minutes:
    git clone [https://github.com/elianatittler/Grafana-Hybrid-Automation-API-and-Web-With-AI.git](https://github.com/elianatittler/Grafana-Hybrid-Automation-API-and-Web-With-AI.git)
    cd Grafana-Hybrid-Automation-API-and-Web-With-AI
 
+---
+
 ## 📦 Directory Structure
 
 ```text
